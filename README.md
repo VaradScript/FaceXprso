@@ -57,6 +57,11 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 
 We welcome contributions to Facexpreso! Please see the [Contributing Guidelines](CONTRIBUTING.md) for more information.
 
+
+
+[<img src="https://avatars.githubusercontent.com/u/108749445?s=64&v=4" width="64" height="64" alt="0x_varadacode">](https://github.com/0x_varadacode)
+[<img src="https://avatars.githubusercontent.com/u/67865621?s=64&v=4" width="64" height="64" alt="haydenbanz">](https://github.com/haydenbanz)
+
 ## Contact
 
 For any inquiries, feel free to contact the project maintainer via [GitHub Issues](https://github.com/varadarajdganiga777/Facial-Expression-Through-AI/issues).
