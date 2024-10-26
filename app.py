@@ -38,7 +38,7 @@ if __name__ == '__main__':
     server_thread.daemon = True
     server_thread.start()
 
-    # Start the PyQt application
+    # Start the PyQt app
     app = QApplication(sys.argv)
     browser = Browser()
     browser.show()
