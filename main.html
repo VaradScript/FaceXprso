@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facial Recognition Project</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            display: flex;
+            min-height: 100vh;
+            background-color: #f0f2f5;
+        }
+        .sidebar {
+            position: fixed;
+            width: 250px;
+            height: 100%;
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 20px;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+            overflow-y: auto;
+        }
+        .sidebar h2 {
+            color: #ecf0f1;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+        }
+        .sidebar p {
+            font-size: 1em;
+            color: #bdc3c7;
+            margin-bottom: 30px;
+        }
+        .sidebar .button {
+            display: block;
+            margin: 20px 0;
+            padding: 15px 25px;
+            font-size: 1em;
+            color: #2c3e50;
+            background-color: #ecf0f1;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            text-align: center;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .sidebar .button:hover {
+            background-color: #bdc3c7;
+            color: #2c3e50;
+        }
+        .content {
+            margin-left: 270px;
+            padding: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-grow: 1;
+            background: #f0f2f5; /* Updated background color */
+        }
+        .content-box {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            padding: 30px;
+            max-width: 900px;
+            width: 100%;
+            text-align: center;
+            background: linear-gradient(135deg, #ffffff 0%, #f7f8fa 100%); /* Gradient background */
+        }
+        .content-box h1 {
+            font-size: 2.5em;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+        .content-box p {
+            font-size: 1.2em;
+            color: #7f8c8d;
+            margin-bottom: 20px;
+        }
+        .expression {
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .expression-item {
+            margin: 15px;
+            text-align: center;
+            width: 160px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .expression-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        }
+        .expression-item img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .expression-item h3 {
+            font-size: 1.5em;
+            color: #34495e;
+            margin-bottom: 10px;
+        }
+        .expression-item p {
+            font-size: 1.1em;
+            color: #7f8c8d;
+        }
+        @media (max-width: 768px) {
+            .sidebar {
+                position: relative;
+                width: 100%;
+                height: auto;
+                box-shadow: none;
+            }
+            .content {
+                margin-left: 0;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h2>About</h2>
+        <p>Our project leverages AI to recognize facial expressions. It can identify various emotions such as happiness, sadness, surprise, neutrality, anger, and fear with high accuracy.</p>
+        <a href="index.html" class="button">Live Option</a>
+        <a href="index1.html" class="button">Insert File</a>
+    </div>
+    <div class="content">
+        <div class="content-box">
+            <h1>Welcome to Our Facial Recognition Project!</h1>
+            <p>Explore the capabilities of our AI-powered facial recognition system. Detect and analyze facial expressions in real-time or by uploading images.</p>
+            
+            <div class="expression">
+                <div class="expression-item">
+                    <img src="happy.jpg" alt="Happy">
+                    <h3>Happy</h3>
+                    <p>A happy expression is characterized by smiling, where the corners of the mouth are lifted, and often the eyes are partially closed.</p>
+                </div>
+                
+                <div class="expression-item">
+                    <img src="sad.jpg" alt="Sad">
+                    <h3>Sad</h3>
+                    <p>A sad expression involves a frowning mouth, with the corners of the mouth turned down, and eyebrows that might be drawn together.</p>
+                </div>
+                
+                <div class="expression-item">
+                    <img src="suprise.jpg" alt="Surprise">
+                    <h3>Surprise</h3>
+                    <p>A surprised expression typically includes raised eyebrows, wide-open eyes, and a mouth that may be open.</p>
+                </div>
+                
+                <div class="expression-item">
+                    <img src="nutral.jpeg" alt="Neutral">
+                    <h3>Neutral</h3>
+                    <p>A neutral expression is where the face shows no specific emotion, maintaining a relaxed and balanced appearance.</p>
+                </div>
+                
+                <div class="expression-item">
+                    <img src="angry.jpg" alt="Angry">
+                    <h3>Angry</h3>
+                    <p>An angry expression typically includes furrowed brows, a glaring look, and lips pressed tightly together or slightly open.</p>
+                </div>
+                
+                <div class="expression-item">
+                    <img src="fear.jpg" alt="Fearful">
+                    <h3>Fearful</h3>
+                    <p>A fearful expression often involves widened eyes, raised eyebrows, and a tense mouth, indicating apprehension or anxiety.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
