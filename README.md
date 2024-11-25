@@ -35,7 +35,7 @@ To set up the project locally, follow these steps:
     ```bash
     cd main.html
     ```
-
+3. direct run the main.html or index.html
 
 ## Usage
 
