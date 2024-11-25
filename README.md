@@ -19,7 +19,7 @@
 ## Features
 
 - **Real-Time Emotion Detection**: Classifies emotions in real-time using a live video feed.
-- **Photo Upload and Analysis**: Allows users to upload images for emotion detection.
+- **Photo Upload and Analysis**: In process
 - **Modular Design**: Easy to extend with additional emotion recognition models or features.
 - **Responsive UI**: A user-friendly interface for seamless interaction.
 
@@ -33,21 +33,14 @@ To set up the project locally, follow these steps:
     ```
 2. Navigate to the project directory:
     ```bash
-    cd Facial-Expression-Through-AI
+    cd main.html
     ```
-3. Install the required Python packages:
-    ```bash
-    pip install -r requirements.txt
-    ```
-4. Start the application:
-    ```bash
-    python a.py
-    ```
+
 
 ## Usage
 
 - **Live Detection**: Start the application and allow camera access. The system will begin analyzing your facial expressions in real-time.
-- **Photo Upload**: Use the upload feature to analyze specific images for emotion detection.
+- **Photo Upload**:In process
 
 ## License
 
