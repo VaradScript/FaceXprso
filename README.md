@@ -44,7 +44,7 @@ To set up the project locally, follow these steps:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/varadarajdganiga777/Facial-Expression-Through-AI/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/varadarajdganiga777/Facial-Expression-Through-AI/blob/main/LICENSE) file for details.<br>
 
 ## Contributing
 
