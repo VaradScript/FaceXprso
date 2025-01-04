@@ -1,6 +1,6 @@
 # Facexpreso
 
-![REadme](https://media.licdn.com/dms/image/v2/D5622AQHz4NxldhorXg/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1722666243715?e=1735776000&v=beta&t=brrqBSyLt6b-f0k1nR0TY7Agbt-_FVUQWTyIqnL034w)
+
 
 [![Python - Facexpreso](https://img.shields.io/static/v1?label=Python&message=Facexpreso&color=%242A3E87&labelColor=%236A7DA8&style=for-the-badge&&logo=python)](https://github.com/varadarajdganiga777/Facial-Expression-Through-AI)
 [![MIT License](https://img.shields.io/static/v1?label=License&message=MIT&color=%233DA639&labelColor=%23e3e3e3&style=for-the-badge)](https://github.com/varadarajdganiga777/Facial-Expression-Through-AI/blob/main/LICENSE)
