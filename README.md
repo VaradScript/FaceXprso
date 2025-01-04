@@ -19,7 +19,7 @@
 ## Features
 
 - **Real-Time Emotion Detection**: Classifies emotions in real-time using a live video feed.
-- **Photo Upload and Analysis**: In process
+- **Photo Upload and Analysis**: In process...
 - **Modular Design**: Easy to extend with additional emotion recognition models or features.
 - **Responsive UI**: A user-friendly interface for seamless interaction.
 
