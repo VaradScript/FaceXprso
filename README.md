@@ -40,7 +40,7 @@ To set up the project locally, follow these steps:
 ## Usage
 
 - **Live Detection**: Start the application and allow camera access. The system will begin analyzing your facial expressions in real-time.
-- **Photo Upload**:In process
+- **Photo Upload**:In process...
 
 ## License
 
