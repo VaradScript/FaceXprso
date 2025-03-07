@@ -48,7 +48,7 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 
 ## Contributing
 
-We welcome contributions to Facexpreso! Please see the [Contributing Guidelines](CONTRIBUTING.md) for more information.
+We welcome contributions to Facexpreso! Please see the [Contributing Guidelines](CONTRIBUTING.md) for more information...
 
 
 
